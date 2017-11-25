@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212885151389785778}
   - component: {fileID: 50005469242196494}
   - component: {fileID: 60204104699274854}
+  - component: {fileID: 114828714864779218}
   m_Layer: 0
   m_Name: RecycleBeer
   m_TagString: Untagged
@@ -56,7 +57,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 6
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -78,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 32, y: 98}
+    oldSize: {x: 35.555557, y: 108.88889}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -92,6 +93,17 @@ PolygonCollider2D:
       - {x: 16, y: -49}
       - {x: 16, y: 37}
       - {x: 12, y: 49}
+--- !u!114 &114828714864779218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1525399052595550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a349821f55908154387f01232149fd44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212885151389785778
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -123,7 +135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300016, guid: bd28a293f2114fb40b3cead5ed25b460, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

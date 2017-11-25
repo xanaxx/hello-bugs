@@ -27,7 +27,7 @@ public class FallingObjectScript : MonoBehaviour
             switch (whatToSpawn)
             {
                 case 1:
-                    Instantiate(prefab1, transform.position + new Vector3(11f, 11f, 11f), Quaternion.Euler(0, 0, Random.Range(0, 360)));
+                    Instantiate(prefab1, transform.position + new Vector3(0, 1.1f, 0), Quaternion.Euler(0, 0, Random.Range(0, 360)));
                     break;
                 case 2:
                     Instantiate(prefab2, transform.position + new Vector3(0, 1.1f, 0), Quaternion.Euler(0, 0, Random.Range(0, 360)));
