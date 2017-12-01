@@ -8,6 +8,6 @@ public class DragDropScript : MonoBehaviour
     {
         Debug.Log("Wciśnięto");
         this.transform.position = Input.mousePosition;
+        this.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
     }
-
 }
