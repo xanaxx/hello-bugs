@@ -21,6 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
+<<<<<<< Updated upstream
   m_MinSize: {x: 950, y: 521}
 =======
     x: 8
@@ -30,6 +31,9 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Stashed changes
+=======
   m_MinSize: {x: 950, y: 300}
 >>>>>>> Stashed changes
   m_MaxSize: {x: 10000, y: 10000}
@@ -133,9 +137,10 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     width: 1920
     height: 957
-  m_MinSize: {x: 713, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 4740
 =======
     width: 1350
@@ -144,6 +149,9 @@ MonoBehaviour:
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
   controlID: 142
+>>>>>>> Stashed changes
+=======
+  controlID: 125
 >>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
@@ -166,9 +174,10 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     width: 1048
     height: 957
-  m_MinSize: {x: 202, y: 442}
-  m_MaxSize: {x: 4002, y: 8042}
+  m_MinSize: {x: 202, y: 421}
+  m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 4767
 =======
     width: 660
@@ -177,6 +186,9 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 42
+>>>>>>> Stashed changes
+=======
+  controlID: 10
 >>>>>>> Stashed changes
 --- !u!114 &7
 MonoBehaviour:
@@ -197,11 +209,16 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     width: 1048
     height: 392
+<<<<<<< Updated upstream
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
     width: 660
     height: 257
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> Stashed changes
+=======
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 >>>>>>> Stashed changes
@@ -265,9 +282,10 @@ MonoBehaviour:
     y: 0
     width: 339
     height: 957
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 4741
 =======
     x: 660
@@ -278,6 +296,9 @@ MonoBehaviour:
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
   controlID: 91
+>>>>>>> Stashed changes
+=======
+  controlID: 64
 >>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
@@ -298,11 +319,16 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     width: 339
     height: 417
+<<<<<<< Updated upstream
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
     width: 315
     height: 295
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+>>>>>>> Stashed changes
+=======
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
 >>>>>>> Stashed changes
@@ -363,9 +389,10 @@ MonoBehaviour:
     y: 0
     width: 533
     height: 957
-  m_MinSize: {x: 277, y: 171}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 277, y: 192}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 4787
 =======
     x: 975
@@ -376,6 +403,9 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 143
+>>>>>>> Stashed changes
+=======
+  controlID: 126
 >>>>>>> Stashed changes
 --- !u!114 &13
 MonoBehaviour:
@@ -396,12 +426,17 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     width: 533
     height: 660
+<<<<<<< Updated upstream
 =======
     width: 375
     height: 419
 >>>>>>> Stashed changes
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -693,7 +728,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 5696faff8460feff106efeff3894feffca94feffd095fefffc41fffff2f6ffff00000000a22b0000c62b0000da2b0000e42b0000ee2b00007c2f0000a42f000096300000ba300000ce300000e23000001455000042550000
+=======
+    m_ExpandedIDs: 1afcffff00000000
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 1afcffff00000000
 >>>>>>> Stashed changes
@@ -775,6 +814,7 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: 2e280000
     m_LastClickedID: 10286
     m_ExpandedIDs: 00000000fc27000000ca9a3bffffff7f
@@ -782,6 +822,11 @@ MonoBehaviour:
     m_SelectedIDs: 01ca9a3b
     m_LastClickedID: 1000000001
     m_ExpandedIDs: 000000001626000000ca9a3bffffff7f
+>>>>>>> Stashed changes
+=======
+    m_SelectedIDs: a0260000
+    m_LastClickedID: 9888
+    m_ExpandedIDs: 000000001426000000ca9a3bffffff7f
 >>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -811,9 +856,13 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000fc27000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 0000000016260000
+>>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 0000000014260000
 >>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -842,7 +891,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_HadKeyboardFocusLastEvent: 1
+=======
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> Stashed changes
     m_ExpandedInstanceIDs: de6400008abc0000280600008e060000f426000000000000d42b0000902a0000182600004226000042320000f0c2fcff84260000
 =======
     m_HadKeyboardFocusLastEvent: 0
@@ -850,18 +903,18 @@ MonoBehaviour:
 >>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 8bit-game-start
-      m_OriginalName: 8bit-game-start
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12960
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
