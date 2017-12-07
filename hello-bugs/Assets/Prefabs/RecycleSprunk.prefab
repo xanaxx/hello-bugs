@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114457748437789490}
   m_Layer: 0
   m_Name: RecycleSprunk
-  m_TagString: Untagged
+  m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
