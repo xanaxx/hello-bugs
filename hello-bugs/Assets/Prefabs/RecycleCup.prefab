@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4837936997900504}
   - component: {fileID: 212433159887739102}
   - component: {fileID: 50071493079768574}
-  - component: {fileID: 60484779414071100}
   - component: {fileID: 114913727183179994}
+  - component: {fileID: 60370182681465286}
   m_Layer: 0
   m_Name: RecycleCup
   m_TagString: Paper
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60484779414071100
+--- !u!60 &60370182681465286
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 62.222225, y: 100}
+    oldSize: {x: 28, y: 45}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,15 +87,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 45}
-      - {x: -28, y: 31}
-      - {x: -28, y: -13}
-      - {x: -22, y: -39}
-      - {x: -20, y: -45}
-      - {x: 22, y: -45}
-      - {x: 28, y: -29}
-      - {x: 28, y: 39}
-      - {x: 26, y: 45}
+    - - {x: 0, y: 22.5}
+      - {x: -14, y: 15.5}
+      - {x: -14, y: -6.5}
+      - {x: -11, y: -19.5}
+      - {x: -10, y: -22.5}
+      - {x: 11, y: -22.5}
+      - {x: 14, y: -14.5}
+      - {x: 14, y: 19.5}
+      - {x: 13, y: 22.5}
 --- !u!114 &114913727183179994
 MonoBehaviour:
   m_ObjectHideFlags: 1

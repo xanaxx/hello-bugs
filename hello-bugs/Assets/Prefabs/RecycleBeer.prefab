@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4280087720294740}
   - component: {fileID: 212885151389785778}
   - component: {fileID: 50005469242196494}
-  - component: {fileID: 60204104699274854}
   - component: {fileID: 114828714864779218}
+  - component: {fileID: 60715514628509324}
   m_Layer: 0
   m_Name: RecycleBeer
   m_TagString: Glass
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60204104699274854
+--- !u!60 &60715514628509324
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 35.555557, y: 108.88889}
+    oldSize: {x: 16, y: 49}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,12 +87,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -12, y: 49}
-      - {x: -16, y: 35}
-      - {x: -16, y: -49}
-      - {x: 16, y: -49}
-      - {x: 16, y: 37}
-      - {x: 12, y: 49}
+    - - {x: -6, y: 24.5}
+      - {x: -8, y: 17.5}
+      - {x: -8, y: -24.5}
+      - {x: 8, y: -24.5}
+      - {x: 8, y: 18.5}
+      - {x: 6, y: 24.5}
 --- !u!114 &114828714864779218
 MonoBehaviour:
   m_ObjectHideFlags: 1

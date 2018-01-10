@@ -10,6 +10,7 @@ public class ButtonManager : MonoBehaviour
 
     public AudioClip sound;
     public string scene;
+    public AudioSource BgSource;
 
     private Button button
     {
@@ -40,9 +41,16 @@ public class ButtonManager : MonoBehaviour
 
     IEnumerator WaitAudioLength()
     {
+        BgSource.Stop();
         source.PlayOneShot(sound);
         yield return new WaitForSecondsRealtime(sound.length);
-        SceneManager.LoadScene(scene);
+        if (scene != "quit")
+        {
+            SceneManager.LoadScene(scene);
+            yield break;
+        }
+        Application.Quit();
+        Debug.Log("EXIT");
     }
 
 

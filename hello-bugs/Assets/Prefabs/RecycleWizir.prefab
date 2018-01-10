@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4992101956766626}
   - component: {fileID: 212830610602397040}
   - component: {fileID: 50158656976794074}
-  - component: {fileID: 60724994019191002}
   - component: {fileID: 114906025005415370}
+  - component: {fileID: 60398472753987864}
   m_Layer: 0
   m_Name: RecycleWizir
   m_TagString: Plastic
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60724994019191002
+--- !u!60 &60398472753987864
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 80, y: 97.77778}
+    oldSize: {x: 36, y: 44}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,12 +87,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -36, y: 44}
-      - {x: -36, y: -40}
-      - {x: -32, y: -44}
-      - {x: 36, y: -44}
-      - {x: 36, y: 24}
-      - {x: 14, y: 44}
+    - - {x: -18, y: 22}
+      - {x: -18, y: -20}
+      - {x: -16, y: -22}
+      - {x: 18, y: -22}
+      - {x: 18, y: 12}
+      - {x: 7, y: 22}
 --- !u!114 &114906025005415370
 MonoBehaviour:
   m_ObjectHideFlags: 1

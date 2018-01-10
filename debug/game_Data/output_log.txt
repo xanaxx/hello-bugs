@@ -1,3 +1,11 @@
+Mono path[0] = 'G:/GitHub/hello-bugs/debug/game_Data/Managed'
+Mono config path = 'G:/GitHub/hello-bugs/debug/game_Data/Mono/etc'
+PlayerConnection initialized from G:/GitHub/hello-bugs/debug/game_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55077
+Multi-casting "[IP] 192.168.0.10 [Port] 55077 [Flags] 2 [Guid] 1671739260 [EditorId] 38352075 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-8GR79PS) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55077]
+PlayerConnection already initialized - listening to [0.0.0.0:55077]
+Player data archive not found at `G:/GitHub/hello-bugs/debug/game_Data/data.unity3d`, using local filesystem
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -17,13 +25,23 @@ Platform assembly: G:\GitHub\hello-bugs\debug\game_Data\Managed\UnityEngine.Netw
 Loading G:\GitHub\hello-bugs\debug\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: G:\GitHub\hello-bugs\debug\game_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
 Loading G:\GitHub\hello-bugs\debug\game_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: G:\GitHub\hello-bugs\debug\game_Data\Managed\TextMeshPro-2017.1-1.0.56-Runtime.dll (this message is harmless)
+Loading G:\GitHub\hello-bugs\debug\game_Data\Managed\TextMeshPro-2017.1-1.0.56-Runtime.dll into Unity Child Domain
 Platform assembly: G:\GitHub\hello-bugs\debug\game_Data\Managed\System.dll (this message is harmless)
 Platform assembly: G:\GitHub\hello-bugs\debug\game_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.216 seconds
+- Completed reload, in  0.122 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 32.392009 ms
+UnloadTime: 1.651046 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2188 -> priority: 1 
-  Thread -> id: 31e0 -> priority: 1 
+  Thread -> id: 2440 -> priority: 1 
+  Thread -> id: 350c -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.518964 ms
+System memory in use before: 24.8 MB.
+System memory in use after: 18.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 383.
+Total: 4.419756 ms (FindLiveObjects: 0.036141 ms CreateObjectMapping: 0.023491 ms MarkObjects: 0.324968 ms  DeleteObjects: 4.033648 ms)
+

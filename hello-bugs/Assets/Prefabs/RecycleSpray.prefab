@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4711371640047450}
   - component: {fileID: 212987431450340510}
   - component: {fileID: 50941390607977310}
-  - component: {fileID: 60835657976444180}
   - component: {fileID: 114678078512179406}
+  - component: {fileID: 60976615692322850}
   m_Layer: 0
   m_Name: RecycleSpray
   m_TagString: Metal
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60835657976444180
+--- !u!60 &60976615692322850
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 37.77778, y: 88.88889}
+    oldSize: {x: 17, y: 40}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,12 +87,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 7, y: 40}
-      - {x: -9, y: 40}
-      - {x: -17, y: 30}
-      - {x: -17, y: -40}
-      - {x: 17, y: -40}
-      - {x: 17, y: 30}
+    - - {x: 3.5, y: 20}
+      - {x: -4.5, y: 20}
+      - {x: -8.5, y: 15}
+      - {x: -8.5, y: -20}
+      - {x: 8.5, y: -20}
+      - {x: 8.5, y: 15}
 --- !u!114 &114678078512179406
 MonoBehaviour:
   m_ObjectHideFlags: 1

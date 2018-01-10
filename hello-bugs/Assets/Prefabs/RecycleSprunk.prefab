@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4317161833146684}
   - component: {fileID: 212381727068988976}
   - component: {fileID: 50936840375387150}
-  - component: {fileID: 60163725472035322}
   - component: {fileID: 114457748437789490}
+  - component: {fileID: 60513148686920564}
   m_Layer: 0
   m_Name: RecycleSprunk
   m_TagString: Metal
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60163725472035322
+--- !u!60 &60513148686920564
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 40, y: 75.55556}
+    oldSize: {x: 18, y: 34}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,11 +87,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -18, y: 34}
-      - {x: -18, y: -34}
-      - {x: 18, y: -34}
-      - {x: 18, y: 32}
-      - {x: 16, y: 34}
+    - - {x: -9, y: 17}
+      - {x: -9, y: -17}
+      - {x: 9, y: -17}
+      - {x: 9, y: 16}
+      - {x: 8, y: 17}
 --- !u!114 &114457748437789490
 MonoBehaviour:
   m_ObjectHideFlags: 1

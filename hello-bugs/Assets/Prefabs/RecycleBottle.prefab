@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4640990037285060}
   - component: {fileID: 212844028316773146}
   - component: {fileID: 50312240241886160}
-  - component: {fileID: 60148749462028292}
   - component: {fileID: 114754701007141184}
+  - component: {fileID: 60662554883979126}
   m_Layer: 0
   m_Name: RecycleBottle
   m_TagString: Plastic
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60148749462028292
+--- !u!60 &60662554883979126
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 33.333336, y: 100}
+    oldSize: {x: 15, y: 45}
     newSize: {x: 30, y: 90}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,11 +87,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -15, y: 45}
-      - {x: -15, y: -45}
-      - {x: 15, y: -45}
-      - {x: 15, y: 43}
-      - {x: 13, y: 45}
+    - - {x: -7.5, y: 22.5}
+      - {x: -7.5, y: -22.5}
+      - {x: 7.5, y: -22.5}
+      - {x: 7.5, y: 21.5}
+      - {x: 6.5, y: 22.5}
 --- !u!114 &114754701007141184
 MonoBehaviour:
   m_ObjectHideFlags: 1

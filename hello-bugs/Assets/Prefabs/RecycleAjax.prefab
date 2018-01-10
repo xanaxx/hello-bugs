@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4824437463688280}
   - component: {fileID: 212201169281165218}
   - component: {fileID: 50393077102372218}
-  - component: {fileID: 60404513666807368}
   - component: {fileID: 114133844315449048}
+  - component: {fileID: 60757545429224252}
   m_Layer: 0
   m_Name: RecycleAjax
   m_TagString: Plastic
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60404513666807368
+--- !u!60 &60757545429224252
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 86.66667, y: 122.22223}
+    oldSize: {x: 39, y: 55}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,13 +87,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -19, y: 55}
-      - {x: -39, y: 45}
-      - {x: -39, y: -53}
-      - {x: -37, y: -55}
-      - {x: 39, y: -55}
-      - {x: 39, y: 47}
-      - {x: 31, y: 55}
+    - - {x: -9.5, y: 27.5}
+      - {x: -19.5, y: 22.5}
+      - {x: -19.5, y: -26.5}
+      - {x: -18.5, y: -27.5}
+      - {x: 19.5, y: -27.5}
+      - {x: 19.5, y: 23.5}
+      - {x: 15.5, y: 27.5}
 --- !u!114 &114133844315449048
 MonoBehaviour:
   m_ObjectHideFlags: 1

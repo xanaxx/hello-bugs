@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4887729815419468}
   - component: {fileID: 212061624734735802}
   - component: {fileID: 50187145382778198}
-  - component: {fileID: 60765720433828188}
   - component: {fileID: 114997527657867832}
+  - component: {fileID: 60674844079173040}
   m_Layer: 0
   m_Name: RecycleBox
   m_TagString: Paper
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60765720433828188
+--- !u!60 &60674844079173040
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 113.333336, y: 106.66667}
+    oldSize: {x: 51, y: 48}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,12 +87,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -49, y: 48}
-      - {x: -51, y: 44}
-      - {x: -51, y: -48}
-      - {x: 51, y: -48}
-      - {x: 51, y: 36}
-      - {x: 39, y: 48}
+    - - {x: -24.5, y: 24}
+      - {x: -25.5, y: 22}
+      - {x: -25.5, y: -24}
+      - {x: 25.5, y: -24}
+      - {x: 25.5, y: 18}
+      - {x: 19.5, y: 24}
 --- !u!114 &114997527657867832
 MonoBehaviour:
   m_ObjectHideFlags: 1

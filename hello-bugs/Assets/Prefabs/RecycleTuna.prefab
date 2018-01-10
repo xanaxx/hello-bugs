@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4983839298279384}
   - component: {fileID: 212930430743047474}
   - component: {fileID: 50773713439230436}
-  - component: {fileID: 60737095093723414}
   - component: {fileID: 114062148099194624}
+  - component: {fileID: 60361983723845386}
   m_Layer: 0
   m_Name: RecycleTuna
   m_TagString: Metal
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60737095093723414
+--- !u!60 &60361983723845386
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 51.11111, y: 66.66667}
+    oldSize: {x: 23, y: 30}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,13 +87,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -19, y: 55}
-      - {x: -39, y: 45}
-      - {x: -39, y: -53}
-      - {x: -37, y: -55}
-      - {x: 39, y: -55}
-      - {x: 39, y: 47}
-      - {x: 31, y: 55}
+    - - {x: -5.5, y: 15}
+      - {x: -11.5, y: 8}
+      - {x: -11.5, y: -15}
+      - {x: 11.5, y: -15}
+      - {x: 11.5, y: 13}
+      - {x: 9.5, y: 15}
 --- !u!114 &114062148099194624
 MonoBehaviour:
   m_ObjectHideFlags: 1

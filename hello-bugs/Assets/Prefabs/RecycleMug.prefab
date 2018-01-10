@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4831270996229648}
   - component: {fileID: 212301518797110678}
   - component: {fileID: 50530883231476458}
-  - component: {fileID: 60705317751806230}
   - component: {fileID: 114434664695699258}
+  - component: {fileID: 60879359707811082}
   m_Layer: 0
   m_Name: RecycleMug
   m_TagString: Glass
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60705317751806230
+--- !u!60 &60879359707811082
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 64.44444, y: 57.77778}
+    oldSize: {x: 29, y: 26}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,11 +87,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -29, y: 26}
-      - {x: -29, y: -26}
-      - {x: 29, y: -26}
-      - {x: 29, y: 18}
-      - {x: 19, y: 26}
+    - - {x: -14.5, y: 13}
+      - {x: -14.5, y: -13}
+      - {x: 14.5, y: -13}
+      - {x: 14.5, y: 9}
+      - {x: 9.5, y: 13}
 --- !u!114 &114434664695699258
 MonoBehaviour:
   m_ObjectHideFlags: 1

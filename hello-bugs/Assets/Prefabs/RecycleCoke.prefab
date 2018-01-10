@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4433413304422636}
   - component: {fileID: 212631452984948228}
   - component: {fileID: 50932973558485570}
-  - component: {fileID: 60471264895442008}
   - component: {fileID: 114070873181600424}
+  - component: {fileID: 60188799425957198}
   m_Layer: 0
   m_Name: RecycleCoke
   m_TagString: Glass
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60471264895442008
+--- !u!60 &60188799425957198
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 37.77778, y: 111.111115}
+    oldSize: {x: 17, y: 50}
     newSize: {x: 78, y: 110}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -87,11 +87,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -15, y: 50}
-      - {x: -17, y: 46}
-      - {x: -17, y: -50}
-      - {x: 17, y: -50}
-      - {x: 17, y: 50}
+    - - {x: -7.5, y: 25}
+      - {x: -8.5, y: 23}
+      - {x: -8.5, y: -25}
+      - {x: 8.5, y: -25}
+      - {x: 8.5, y: 25}
 --- !u!114 &114070873181600424
 MonoBehaviour:
   m_ObjectHideFlags: 1
