@@ -21,6 +21,11 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(PlayButtonHit("quit"));
     }
 
+    public void QuitMenu()
+    {
+        StartCoroutine(PlayButtonHit("Menu"));
+    }
+
     IEnumerator PlayButtonHit(string scene)
     {
         AudioSource.Stop();
